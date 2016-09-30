@@ -1,0 +1,17 @@
+development: &development
+  secret_key_base: ''
+  exception_notification:
+    enable: false
+    slack:
+      webhook_url: ''
+      channel: ''
+  app_env: 'local' # dev, demo, production
+
+test:
+  <<: *development
+
+staging:
+  <<: *development
+
+production:
+  <<: *development

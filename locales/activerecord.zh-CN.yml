@@ -1,0 +1,13 @@
+zh-CN:
+  activerecord:
+    models:
+      user: '用户'
+    attributes:
+      user:
+        name: '姓名'
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              not_exists: '不存在'
